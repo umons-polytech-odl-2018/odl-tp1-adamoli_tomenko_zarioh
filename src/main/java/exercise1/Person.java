@@ -1,17 +1,17 @@
 package exercise1;
 
 class Person {
-	private String nom;
+	private String name;
 	private Integer age;
 
 	public Person(String n, int a) {
-		nom = n;
+		name = n;
 		age = a;
-		System.out.println("Veillez accueillir un nouveau né !!!! " + nom + " : " + age);
+		System.out.println("Veillez accueillir un nouveau né !!!! " + name + " : " + age);
 	}
 
 	public String getName(){
-		return nom;
+		return name;
 	}
 
 	public int getAge (){

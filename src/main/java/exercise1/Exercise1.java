@@ -16,14 +16,7 @@ public class Exercise1 {
 		// et un second donnant l'âge (nombre entier), créez un objet Person sur base de ceux-ci.
 		// Ecrivez ensuite le nom et l'âge de cette personne sur la sortie standard.
 
-		String name;
-		int age;
-		Scanner S=new Scanner(System.in);
-		name=S.next();
-		age=S.nextInt();
-
-		createPerson(name, age);
-
-		return;
+		Person person=createPerson(args[0], Integer.parseInt(args[1]));
+		System.out.println("Veillez accueillir un nouveau né !!!! " + person.getName() + " : " + person.getAge());
 	}
 }
