@@ -1,7 +1,7 @@
 package exercise3;
 
 public class ConvexPolygon {
-	private Point[] vertices;
+	private Point vertices [];
 
 	private double areatriangle(Point A, Point B, Point C){
 		return (Math.abs((A.getX()-C.getX())*(B.getY()-C.getY())-(A.getY()-C.getY())*(B.getX()-C.getX()))/2);
@@ -25,7 +25,7 @@ public class ConvexPolygon {
 		return area;
 	}*/
 
-	public ConvexPolygon(Point[] ver){
+	public ConvexPolygon(Point ver []){
 		this.vertices=ver;
 	}
 }
