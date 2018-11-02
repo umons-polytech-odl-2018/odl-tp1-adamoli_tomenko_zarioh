@@ -19,12 +19,11 @@ public class Exercise2 {
 
 	static float computeAveragePopulationAge() {
 		// TODO remove comment when implemented
-		// return Person.computeAveragePopulationAge();
-		return 0.0F;
+		return Person.computeAveragePopulationAge();
 	}
 
 	static void resetPopulation() {
 		// TODO remove comment when implemented
-		// Person.resetPopulation();
+		Person.resetPopulation();
 	}
 }
