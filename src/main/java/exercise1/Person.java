@@ -7,7 +7,6 @@ class Person {
 	public Person(String n, int a) {
 		name = n;
 		age = a;
-		System.out.println("Veillez accueillir un nouveau né !!!! " + name + " : " + age);
 	}
 
 	public String getName(){
