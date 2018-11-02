@@ -19,4 +19,7 @@ public class Point {
 	public int getY() {
 		return y;
 	}
+	public void setX(int a) {x=a;}
+
+	public void setY(int a) {y=a;}
 }
